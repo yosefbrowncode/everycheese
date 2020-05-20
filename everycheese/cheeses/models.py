@@ -5,7 +5,7 @@ from model_utils.models  import  TimeStampedModel
 
 
 
-class cheese(TimeStampedModel):
+class Cheese(TimeStampedModel):
 
         class Firmness(models.TextChoices):
             UNSPECIFIED = "unspecified", "unspecified"
